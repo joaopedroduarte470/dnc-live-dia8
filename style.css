@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;700;800&display=swap');
+
+body{
+    background: linear-gradient(136.31deg, #0C0F07 14.16%, #1F102B 53.39%, #23193E 82.63%);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 51px 111px 0px 63px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  li a {
+    padding: 32px;
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    color: #E0DAED;
+  }
+
+
+
+  main{
+    display: flex;
+    flex-direction: row;
+    padding: 115px;
+  }
+
+  #headform h1{
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 50px;
+    /* or 78% */
+    text-align: center;
+    color: rgba(159, 127, 219, 0.8);
+  }
+
+.form-control{
+    margin: auto;
+    width: 408.2px;
+}
+
+  input {
+    width: 408.2px;
+    height: 41.23px;
+    background: #9F7FDB;
+    border-radius: 10px;   
+    padding: 20px; 
+}
+
+input::placeholder{
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: left;
+color: #FFFFFF;
+}
+
+#success {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F7B0F;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 2vh;
+    display: none;
+}
+
+#erro {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #E73550;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 2vh;
+    display: none;
+}
+
+.form-control small {
+    float: right;
+    visibility: hidden;
+    height: 14px;
+    color: #FFF;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #E73550;
+    float: right;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    position: relative;
+}
+
+.form-control.success small {
+    visibility: hidden;
+}
+
+.botoes{
+    margin: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 53px;
+}
+
+.submit-button{
+    padding: 18px 28px;
+    background: #7834F3;
+    border-radius: 8px;
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+
+color: #E9E1FD;
+}
+
+.info{
+    padding: 18px 28px;
+    background: #9F7FDB;
+    border-radius: 8px;
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    margin-left: 84px;
+
+color: #E9E1FD;
+}
